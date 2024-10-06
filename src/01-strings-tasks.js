@@ -142,8 +142,8 @@ function removeFirstOccurrences(str, value) {
  *   '<span>' => 'span'
  *   '<a>' => 'a'
  */
-function unbracketTag(str) {
-  return str.slice(1, -1);;
+function unbracketTag(/* str */) {
+  throw new Error('Not implemented');
 }
 
 
@@ -157,8 +157,8 @@ function unbracketTag(str) {
  *   'Thunderstruck' => 'THUNDERSTRUCK'
  *  'abcdefghijklmnopqrstuvwxyz' => 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
  */
-function convertToUpperCase(str) {
-  return str.toUpperCase();
+function convertToUpperCase(/* str */) {
+  throw new Error('Not implemented');
 }
 
 /**
